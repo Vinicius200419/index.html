@@ -1,0 +1,85 @@
+main {
+  background-color: lightcyan;
+  width:100vw;
+}
+h1 {
+  text-align: center;
+  font-size:2vw;
+}
+.categoria {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  padding-right: 40rem; 
+  padding-left: 40rem; 
+}
+.categoria img, .receita img {
+  width:25vw;
+  max-width: 25vw;
+}
+.categoria a, .receita a {
+  background-color: #b2ebf2;
+  padding: 5rem; 
+}
+.primeira {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20rem; 
+  padding-right: 20rem; 
+}
+.segunda {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30rem; 
+  padding-left: 20rem; 
+  padding-right: 20rem; 
+}
+.ultima {
+  display: flex;
+  justify-content: center;
+  padding-top: 30rem;
+  padding-bottom:30rem;
+}
+
+.receita {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  padding-right: 40rem; 
+  padding-left: 40rem; 
+}
+
+.receita img {
+  width:auto;
+  max-width: 25vw; 
+}
+
+.receita1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30rem; 
+  padding-left: 20rem; 
+  padding-right: 20rem; 
+}
+
+.receita2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30rem; 
+  padding-left: 20rem;
+  padding-right: 20rem; 
+  padding-bottom:30rem;
+}
+
+.escolha-receita,
+.receitas-faceis {
+  background-color: #e0f7fa;
+  margin-left: 30rem; 
+  margin-right: 30rem; 
+  margin-bottom: 20rem; 
+  border-radius: 10rem; 
+}
+.escolha-receita img, .receitas-faceis img{
+ width:100%; 
+}
+}
