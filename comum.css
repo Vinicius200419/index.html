@@ -1,0 +1,68 @@
+html {
+  font-size: 1px; 
+}
+body {
+  font-family: 'Helvetica', Arial;
+  font-size:1vw;
+  margin:0;
+}
+a {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+header {
+  background-color: white;
+  margin: 0;
+}
+.cima {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70rem; 
+}
+.logo img {
+  max-width: 10.625vw; 
+  max-height: 18.88vh; 
+}
+.search-form input {
+  height:4.44vh; 
+  width: 37.5vw;
+  padding: 10rem; 
+  border-radius: 70rem; 
+}
+.search-form button {
+  color:solid black;
+  width: 5.625vw; 
+  height: 8.33vh;
+  background-color: white;
+  border-radius: 35rem;
+  font-size:1vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.search-form button:hover {
+  background-color: black;
+  color: white;
+}
+.user-icon img {
+  max-width: 4.06vw; 
+  max-height: 7.22vh; 
+}
+.menu-categorias {
+  display: flex;
+  justify-content: center;
+  gap:30rem;
+}
+.menu-categorias a {
+  background-color: lightcyan;
+  font-weight: bold;
+}
+footer {
+  background-color: white;
+  text-align: center;
+  font-size: 1.25vw; 
+  font-weight: bold;
+}
