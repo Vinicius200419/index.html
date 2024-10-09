@@ -17,6 +17,7 @@ h1 {
   width:25vw;
   max-width:25vw;
   height:12.5vw;
+  object-fit:cover;
 }
 .categoria {
   display: flex;
@@ -63,6 +64,8 @@ h1 {
   width:25vw;
   max-width:25vw;
   height:12.5vw;
+  object-fit:cover;
+  aspect-ratio: 16/9;
 }
 .receita {
   display: flex;
