@@ -1,87 +1,141 @@
 main {
-  background-color: lightcyan;
-  width:100vw;
-}
-h1 {
-  text-align: center;
-  font-size:2vw;
-  padding-top:5rem;
-}
-.escolha-receita{
-  background-color: #e0f7fa;
-  margin-top:20rem;
-  margin-bottom:20rem;
-}
-.escolha-receita img{
-  width:25vw;
-  max-width:25vw;
-  height:12.5vw;
-  object-fit:cover;
-}
-.categoria {
-  display: flex;
-  flex-wrap:wrap;
-  flex-direction: column;
-  padding-right: 40rem; 
-  padding-left: 40rem; 
-}
-.categoria a, .receita a {
-  font-size:1.5vw;
-  background-color: #b2ebf2;
-  padding: 5rem; 
-}
-.primeira {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 20rem; 
-  padding-right: 20rem; 
-}
-.segunda {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 30rem; 
-  padding-left: 20rem; 
-  padding-right: 20rem; 
-}
-.ultima {
-  display: flex;
-  justify-content: center;
-  padding-top: 30rem;
-  padding-bottom:30rem;
-}
-.ultima img{
-  max-width:25vw;
-}
-.receitas-faceis {
-  margin-top:20rem;
-  margin-bottom: 20rem;
-  background-color: #e0f7fa;
-}
-.receitas-faceis img{
-  width:25vw;
-  max-width:25vw;
-  height:12.5vw;
-  object-fit:cover;
-  aspect-ratio: 16/9;
-}
-.receita {
-  display: flex;
-  flex-wrap:wrap;
-  flex-direction: column;
-  padding-right: 40rem; 
-  padding-left: 40rem; 
-  height:auto;
-}
-.receita1 {
-  display: flex;
-  justify-content: space-between;
-  padding:0 20rem;
-}
-.receita2 {
-  display: flex;
-  justify-content: space-between;
-  padding:30rem 20rem;
-}
-.escolha-receita img, .receitas-faceis img{
- width:100%; 
-}
+    background-color: lightcyan;
+    width:100vw;
+  }
+  h1 {
+    text-align: center;
+    font-size:2vw;
+    padding-top:5rem;
+  }
+  .escolha-receita{
+    background-color: #e0f7fa;
+    margin-top:20rem;
+    margin-bottom:20rem;
+  }
+  .escolha-receita img{
+    width:25vw;
+    max-width:25vw;
+    height:12.5vw;
+    object-fit:cover;
+  }
+  .categoria {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    padding-right: 40rem; 
+    padding-left: 40rem; 
+  }
+  .categoria a, .receita a {
+    font-size:1.5vw;
+    background-color: #b2ebf2;
+    padding: 5rem; 
+  }
+  .primeira {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20rem; 
+    padding-right: 20rem; 
+  }
+  .segunda {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30rem; 
+    padding-left: 20rem; 
+    padding-right: 20rem; 
+  }
+  .ultima {
+    display: flex;
+    justify-content: center;
+    padding-top: 30rem;
+    padding-bottom:30rem;
+  }
+  .ultima img{
+    max-width:25vw;
+  }
+  .receitas-faceis {
+    margin-top:20rem;
+    margin-bottom: 20rem;
+    background-color: #e0f7fa;
+  }
+  .receitas-faceis img{
+    width:25vw;
+    max-width:25vw;
+    height:12.5vw;
+    object-fit:cover;
+    aspect-ratio: 16/9;
+  }
+  .receita {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    padding-right: 40rem; 
+    padding-left: 40rem; 
+    height:auto;
+  }
+  .receita1 {
+    display: flex;
+    justify-content: space-between;
+    padding:0 20rem;
+  }
+  .receita2 {
+    display: flex;
+    justify-content: space-between;
+    padding:30rem 20rem;
+  }
+  .escolha-receita img, .receitas-faceis img{
+   width:100%; 
+  }
+
+/* Media Query para telas de 420px a 320px */
+@media (max-width: 420px) {
+    .menu-categorias {
+      flex-direction: column;
+      gap: 10rem;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .escolha-receita img, .receitas-faceis img {
+        width: 85vw; /* Aumentar o tamanho das imagens */
+        max-width: 85vw;
+        height: auto;
+        margin: 0 auto; /* Centralizar as imagens */
+      }
+    
+    h1 {
+      font-size: 5vw;
+      padding-top: 10rem;
+    }
+  
+    .categoria, .receita {
+        padding-top:3rem;
+        padding-right: 5rem;
+        padding-left: 5rem;
+      }
+    
+      .categoria a, .receita a {
+        font-size: 2.5vw;
+        padding: 4rem; /* Ajustar o padding para botões menores */
+        display: block;
+        width: 82.5vw;
+        max-width:82.5vw;
+        margin: 0 auto; /* Centralizar os links */
+      }
+  
+    .primeira, .segunda, .receita1, .receita2 {
+      flex-direction: column;
+      gap: 10rem;
+      padding: 0;
+    }
+  
+    .ultima {
+      padding-top: 20rem;
+      padding-bottom: 20rem;
+    }
+  
+    .ultima img {
+      width: 85vw; /* Ajustar a última imagem para que fique igual às outras */
+      max-width: 85vw;
+      margin: 0 auto; /* Centralizar a última imagem */
+    }
+  }
